@@ -6,13 +6,13 @@ In den 1990er-Jahren wurden in mehreren durch die Deutsche Forschungsgemeinschaf
 Die Ergebnisse wurden in einer Webanwendung mit einer proprietären SQL-Datenbank publiziert. Da die Langzeitverfügbarkeit der gewonnen Daten in diesem System nicht sichergestellt werden kann, wurden die Daten 2021 nach JSON migriert. Die mehr als 20 Jahre alte und bereits nicht mehr voll funktionsfähige Webanwendung wurde abgeschaltet.
 
 In diesem Repository sind enthalten:
-- Das gesamte Inventar im JSON-Format
-- Aus diesem Datenbestand ausgelesene Verzeichnisse von Personen, Körperschaften, Orten, Titeln und Sachbegriffen als CSV
-- Die Rohdaten in einem veralteten Word-Format
-- Die Skripte als Jupyter Notebooks, mit denen das JSON-Inventar und die CSV-Verzeichnisse aus den Word-Dateien ausgelesen wurde
-- Sämtliche auffindebaren Formatdokumentationen
+- Das gesamte Inventar im JSON-Format im Verzeichnis `./json`
+- Aus diesem Datenbestand ausgelesene Verzeichnisse von Personen, Körperschaften, Orten, Titeln und Sachbegriffen als CSV im Verzeichnis `./csv`
+- Die Rohdaten in einem veralteten Word-Format im Verzeichnis `./docx`
+- Die Skripte als Jupyter Notebooks, mit denen das JSON-Inventar und die CSV-Verzeichnisse aus den Word-Dateien ausgelesen wurde im Verzeichnis `./scripte`
+- Sämtliche auffindebaren Formatdokumentationen in diesem Verzeichnis
 
-Die Verzeichnisse sind nicht fehlerfrei. Eine sehr komplexe Logik, mit der Personen, Körperschaften etc. in den Daten markiert werden konnten, hätte enorme Programmierarbeit erfordert, die zur Zeit nicht leistbar ist. In den Verzeichnissen dürften die meisten Angaben in einer brauchbaren Form vorliegen. Die Dateien sind klein genug, um händisch volltextdurchsuchbar zu sein.
+Die Verzeichnisse sind nicht fehlerfrei. Eine sehr komplexe Logik, mit der Personen, Körperschaften etc. in den Daten markiert werden konnten, hätte enorme Programmierarbeit erfordert, die zur Zeit nicht leistbar ist. In den Verzeichnissen dürften die meisten Angaben in einer brauchbaren Form vorliegen. Die Dateien sind klein genug, um händisch volltextdurchsuchbar zu sein. Sobald von den Bearbeitenden Personen offensichtliche aber nicht in der Vorlage enthaltene Daten ergänzt wurden, wurden diese mit `< und >` markiert. Diese Markierung behindert eine einfache Sortierung, weshalb diese Daten immer am Anfang der Verzeichnisse stehen.
 
 Die verwendeten Rohdaten stellen nicht den letzten Stand des Projektes dar. Bei der Erstellung der Webanwendung wurden seinerzeit noch Datenkorrekturen durchgeführt, die nicht in die Rohdaten im Wordformat eingegangen sind. Diese lassen sich aus den SQL-Daten nicht mehr mit vertretbarem Aufwand rekonstruieren.
 
