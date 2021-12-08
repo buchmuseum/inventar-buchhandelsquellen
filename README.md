@@ -16,6 +16,8 @@ Die Verzeichnisse sind nicht fehlerfrei. Eine sehr komplexe Logik, mit der Perso
 
 Die verwendeten Rohdaten stellen nicht den letzten Stand des Projektes dar. Bei der Erstellung der Webanwendung wurden seinerzeit noch Datenkorrekturen durchgeführt, die nicht in die Rohdaten im Wordformat eingegangen sind. Diese lassen sich aus den SQL-Daten nicht mehr mit vertretbarem Aufwand rekonstruieren.
 
+weitere Informationen auch auf dem [Blog der Deutschen Nationalbibliothek](https://blog.dnb.de/digitale-daten-restaurieren/)
+
 # Lizenz
 
 Alle Daten werden unter [CC.0-Lizenz](https://creativecommons.org/publicdomain/zero/1.0/deed.de) zur Verfügung gestellt.
