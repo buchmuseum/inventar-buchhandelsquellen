@@ -1,7 +1,7 @@
 # Inventar archivalischer Quellen zur Geschichte des deutschen Buchhandels und Verlagswesens im 19. und 20. Jahrhundert
 # Inhalt dieses Repositories
 
-In den 1990er-Jahren wurden in mehreren durch die Deutsche Forschungsgemeinschaft gefördertern Projekten die Quellen der deutschen Buchhandelsgeschichte im 19. und 20. Jahrhundert inventarisiiert.
+In den 1990er-Jahren wurden in mehreren durch die Deutsche Forschungsgemeinschaft gefördertern Projekten die Quellen der deutschen Buchhandelsgeschichte im 19. und 20. Jahrhundert inventarisiert.
 
 Die Ergebnisse wurden in einer Webanwendung mit einer proprietären SQL-Datenbank publiziert. Da die Langzeitverfügbarkeit der gewonnen Daten in diesem System nicht sichergestellt werden kann, wurden die Daten 2021 nach JSON migriert. Die mehr als 20 Jahre alte und bereits nicht mehr voll funktionsfähige Webanwendung wurde abgeschaltet.
 
