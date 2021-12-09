@@ -12,9 +12,9 @@ In diesem Repository sind enthalten:
 - Die Skripte als Jupyter Notebooks, mit denen das JSON-Inventar und die CSV-Verzeichnisse aus den Word-Dateien ausgelesen wurde im Verzeichnis `./scripte`
 - Sämtliche auffindebaren Formatdokumentationen in diesem Verzeichnis
 
-Die Verzeichnisse sind nicht fehlerfrei. Eine sehr komplexe Logik, mit der Personen, Körperschaften etc. in den Daten markiert werden konnten, hätte enorme Programmierarbeit erfordert, die zur Zeit nicht leistbar ist. In den Verzeichnissen dürften die meisten Angaben in einer brauchbaren Form vorliegen. Die Dateien sind klein genug, um händisch volltextdurchsuchbar zu sein. Sobald von den Bearbeitenden Personen offensichtliche aber nicht in der Vorlage enthaltene Daten ergänzt wurden, wurden diese mit `< und >` markiert. Diese Markierung behindert eine einfache Sortierung, weshalb diese Daten immer am Anfang der Verzeichnisse stehen.
+Die Verzeichnisse sind nicht fehlerfrei. Eine sehr komplexe Logik, mit der Personen, Körperschaften etc. in den Daten markiert werden konnten, hätte enorme Programmierarbeit erfordert, die zur Zeit nicht leistbar ist. In den Verzeichnissen dürften die meisten Angaben in einer brauchbaren Form vorliegen. Die Dateien sind klein genug, um händisch volltextdurchsuchbar zu sein. Sobald von den bearbeitenden Personen offensichtliche aber nicht in der Vorlage enthaltene Daten ergänzt wurden, wurden diese mit `< und >` markiert. Diese Markierung behindert eine einfache Sortierung, weshalb diese Daten immer am Anfang der Verzeichnisse stehen.
 
-Die verwendeten Rohdaten stellen nicht den letzten Stand des Projektes dar. Bei der Erstellung der Webanwendung wurden seinerzeit noch Datenkorrekturen durchgeführt, die nicht in die Rohdaten im Wordformat eingegangen sind. Diese lassen sich aus den SQL-Daten nicht mehr mit vertretbarem Aufwand rekonstruieren.
+Die verwendeten Rohdaten stellen nicht den letzten Stand des Projektes dar. Bei der Erstellung der Webanwendung wurden seinerzeit noch Datenkorrekturen durchgeführt, die nicht in die Rohdaten im Wordformat eingegangen sind. Diese lassen sich aus den SQL-Daten nicht mehr rekonstruieren.
 
 weitere Informationen auch auf dem [Blog der Deutschen Nationalbibliothek](https://blog.dnb.de/digitale-daten-restaurieren/)
 
